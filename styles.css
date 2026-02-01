@@ -99,7 +99,7 @@ a {
 
     .nav-menu a {
         transition: color 0.3s;
-        color:black;
+        color:white;
     }
 
     .nav-menu a:hover {
@@ -142,7 +142,7 @@ a {
         display: block;
         padding: 0.5rem 1rem;
         transition: color 0.3s;
-        color:  rgb(20, 21, 21);
+        color:  rgb(255, 255, 255);
         font-weight:500;
     }
 
@@ -936,7 +936,7 @@ a {
     align-items: center;
     width: 44px;
     height: 44px;
-    border: solid 8px rgb(21, 22, 22);
+    border: solid 8px #14235f;
     border-radius: 50%;
     background-color: #28593a; /* WhatsApp green */
     color: #fff;
@@ -945,9 +945,17 @@ a {
     transition: transform 0.2s ease-in-out;
 }
 
+.call-widget {
+
+    font-size: 1rem;
+
+}
+
 /* Call widget style */
 .fixed-widgets a.call-widget {
-    background-color: #34b7f1; /* Light blue for the call widget */
+
+    
+    background-color:#14235f; /* Light blue for the call widget */
 }
 
 /* Hover effect */
